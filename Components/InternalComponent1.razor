@@ -1,0 +1,40 @@
+<div class="image-container2">
+    <img src="img/banner2.jpg" style="filter: brightness(0.7);">
+</div>
+<div class="text-banner">
+    <div class="text-banner-initial">
+        <h1>@BannerTextP[0].Title</h1>
+        <p>@BannerTextP[0].Description</p>    
+    </div>
+    <div class="card-banner">
+        <div class="card-banner-header">
+            <img src="img/icons/cocktail-4.svg" alt="">
+        </div>
+        <div class="card-banner-body">
+            <h2>@BannerTextP[1].Title</h2>
+            <p>@BannerTextP[1].Description</p>
+            <a href="api-consumer" class="btn-simple">API</a>
+        </div>
+    </div>
+</div>
+@code{
+    BannerText[] BannerTextP = new BannerText[]
+    {
+        new BannerText()
+        {
+            Title="Componentes internos",
+            Description="Categorias de la Api => =>"
+        },
+        new BannerText()
+        {
+            Title="Sobre la API",
+            Description="Aquí encontarás la amplia variedad de personajes que han tenido presencia dentro de esta gran serie"
+        }
+    };
+
+    public class BannerText
+    {
+        public string? Title {get; set;}
+        public string? Description {get; set;}
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\obj\\Debug\\net8.0\\compressed\\p9ij6qkuns.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Rick&&MortyApi.styles.css",
+      "PackagePath": "staticwebassets\\Rick&&MortyApi.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\img\\IMG1.jpg",
+      "PackagePath": "staticwebassets\\img\\IMG1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\img\\IMG2.jpg",
+      "PackagePath": "staticwebassets\\img\\IMG2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\img\\img-5.jpg",
+      "PackagePath": "staticwebassets\\img\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\img\\img4.jpg",
+      "PackagePath": "staticwebassets\\img\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\Proyectos VisualCode\\C#_\\Rick&&MortyApi\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Rick&&MortyApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Rick&&MortyApi.props",
+      "PackagePath": "build\\Rick&&MortyApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Rick&&MortyApi.props",
+      "PackagePath": "buildMultiTargeting\\Rick&&MortyApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Rick&&MortyApi.props",
+      "PackagePath": "buildTransitive\\Rick&&MortyApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

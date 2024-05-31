@@ -1,0 +1,20 @@
+@page "/api-consumer"
+@inject RickAndMortyService RaM
+
+
+
+ @foreach (var character in characters)
+    {
+     <RickAndMorty.Components.ApiResultComponent Name="@character.Name" Species="@character.Species" Image="@character.Image" />
+  
+    }
+
+@code{  
+    private List <RickAndMortyService.RickAndMortyCharacters> characters;
+    protected override async Task OnInitializedAsync()
+    {
+        this.characters = await RaM.GetCharactersAsync();
+    }    
+}    
+
+

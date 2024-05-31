@@ -1,0 +1,15 @@
+﻿@page "/internal-components"
+@using Rick__MortyApi.Components
+
+<PageTitle>Internal Components</PageTitle>
+<InternalComponent1/>
+<InternalComponent2 Personajes="@Personajes" Capitulos="@Capitulos" Ubicaciones="@Ubicaciones" />
+
+@code{
+
+    public List<string>Personajes {get;set;}= ["Hay 826 personajes ordenados","los atributo con los que cuenta cada personaje son id, name, status,species,type, gender, origin, location, image, episode, url, created"];
+    public List<string>Capitulos {get;set;} =["Hay 126 ubicaciones ordenadas","los atributo con los que cuenta cada ubicación son id, Name, type, dimensión, residents, url, created"];
+
+    public List<string>Ubicaciones {get;set;}=["Hay 51 episodios ordenados","los atributo con los que cuenta cada ubicación son id, Name, air_date, episode, characters, url, created"];
+
+}

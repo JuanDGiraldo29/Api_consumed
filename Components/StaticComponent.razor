@@ -1,0 +1,48 @@
+<section>
+    <div class="image-container">
+        <img src="img/IMG1.jpg" class="img-fluid" alt="..."> 
+    </div>
+    <div class="text-banner2">
+        <div class="text-banner-initial">
+            <h1>@BannerTextP[0].Title</h1>    
+        </div>
+    </div>
+    <div class="set-cards">
+        <div class="card" style="width: 18rem;">
+            <img src="img/IMG2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><strong>Trama</strong></h5>
+                <p class="card-text">En "Rick and Morty", la relación entre el excéntrico y cínico abuelo Rick y su ingenuo pero curioso nieto Morty es el núcleo de la serie.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="img/img4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><strong>Tematica</strong></h5>
+                <p class="card-text">Rick and Morty" es una serie animada de ciencia ficción que sigue las aventuras interdimensionales de un científico genio, Rick Sanchez, y su nieto Morty Smith.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="img/img-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><strong>Impacto</strong></h5>
+                <p class="card-text">"Rick and Morty" es conocida por su humor oscuro, su inteligente sátira de la cultura pop y su exploración de temas existenciales a través de la lente de la ciencia ficción.</p>
+            </div>
+        </div>
+    </div>
+</section>
+@code{
+    BannerText[] BannerTextP = new BannerText[]
+    {
+        new BannerText()
+        {
+            Title="Home",
+            
+        },
+    };
+
+    public class BannerText
+    {
+        public string? Title {get; set;}
+    }
+}

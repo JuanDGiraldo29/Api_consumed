@@ -1,0 +1,37 @@
+<br>
+<div class="container text-center">
+    <h1 style="align-items: center; color: #000000; font-family: 'Courier New', Courier, monospace;"> Categorias de la API</h1>
+</div>
+<br>
+<div class="card">
+    <table class="card-tittle">
+        <thead>
+            <tr>
+                <th scope="col">Personajes</th>
+                <th scope="col">Capítulos</th>
+                <th scope="col">Ubicaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(int i = 0; i < Personajes.Count; i++)
+            {
+                <tr>
+                    <td>@Personajes[i]</td>
+                    <td>@Capitulos[i]</td>
+                    <td>@Ubicaciones[i]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public List<string> Personajes { get; set; } = new List<string>();
+    [Parameter]
+    public List<string> Capitulos { get; set; } = new List<string>();
+    [Parameter]
+    public List<string> Ubicaciones { get; set; } = new List<string>();
+}
